@@ -31,5 +31,7 @@ console.log('Creating object instance with name option Petya');
 const singleTon = SingletonWrap.getInstance({ name: 'Petya' });
 console.log('Creating another object instance with name option Vlad');
 const singleTon2 = SingletonWrap.getInstance({ name: 'Vlad' });
-console.log('As the result we have single object instance without changes and saving prior settings');
+console.log(
+  'As the result we have single object instance without changes and saving prior settings',
+);
 console.log(singleTon.name, singleTon2.name); // Petya, Petya

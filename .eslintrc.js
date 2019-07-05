@@ -30,7 +30,7 @@ module.exports = {
    'no-plusplus': 'off',
    'space-before-function-paren': 0, // несовместимо с prettier
    'max-len': ['error', 100, 2, { ignoreUrls: true, }],
-   'no-console': 'error', // airbnb использует warn
+   'no-console': 'off', // airbnb использует warn
    'no-alert': 'error', // airbnb использует warn
    'no-param-reassign': 'off',
    "radix": "off",
