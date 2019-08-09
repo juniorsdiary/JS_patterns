@@ -12,7 +12,7 @@ const Commander = (function() {
   };
 
   return {
-    execute(cmd, ...args) {
+    execute: (cmd, ...args) {
       return calc[cmd](...args);
     },
   };

@@ -7,7 +7,7 @@ function Car(model, year, miles) {
 
 // Note here that we are using Object.prototype.newMethod rather than
 // Object.prototype so as to avoid redefining the prototype object
-Car.prototype.toString = function() {
+Car.prototype.convertToString = function convertToString() {
   return `${this.model} has done ${this.miles} miles`;
 };
 
